@@ -1,0 +1,160 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+.place-bg{
+    background: url("images/torshov.jpg");
+    background-size: cover;
+    height: 343px; 
+    padding-top:122px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.place-title{
+    
+    border-radius: 10px;
+    background: #1D3557;
+    padding: 3px 12px 5px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 11px;
+}
+.place-writeup{
+    width: 355px;
+    height: 39px;
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 10px;
+    background: #457B9D;
+    padding: 5px 29px 8px 28px;
+}
+.activities-section{
+    background: #F1FAEE;
+   
+}
+.activities-title{
+    padding:38px 0px 54px 0px;
+    margin: 0px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.activities-image-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    padding-bottom: 38px;
+    
+    /* padding-left: 34px;
+    padding-right: 34px; */
+    
+    
+    
+}
+.activities-image{
+    width: 100px;
+    border-radius: 50%; 
+}
+.activities-sub-title{
+    width: 197px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 23px;
+    margin-bottom: 16px;
+    
+}
+.activities-text{
+    width: 198px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.guide-section{
+    background: #FFF;
+}
+.guide-card{
+    width: 400px;
+    height: 294px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px #1D3557; 
+    margin: 50px auto ;
+}
+.guide-image{
+    width: 180px;
+    height: 248.667px;
+    margin-left: 13px;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+.guide-title{
+    width: 207px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.guide-text{
+    width: 189px;
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+        
+}
+.guide-name{
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
